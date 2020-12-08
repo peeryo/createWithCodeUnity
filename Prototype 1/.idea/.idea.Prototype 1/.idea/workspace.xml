@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ebbdf7-c58a-449c-a794-9d92cf5f1129" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 1/Challenge 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 1/Challenge 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 1/Scripts/FollowPlayerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 1/Scripts/FollowPlayerX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PlayerControllerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PlayerControllerX.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +34,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Challenge 1/Scripts/PropellerSpin.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PlayerControllerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/FollowPlayerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PropellerSpin.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607450696041</updated>
       <workItem from="1607450698448" duration="2855000" />
+      <workItem from="1607467762953" duration="460000" />
     </task>
     <servers />
   </component>
@@ -97,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
