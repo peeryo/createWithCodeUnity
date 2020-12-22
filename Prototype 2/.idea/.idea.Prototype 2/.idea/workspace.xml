@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f4afbd-99e2-4a65-b6e3-b11c8ce5ec98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 2/Challenge 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 2/Challenge 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Dog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 2/Prefabs/Dog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/PlayerControllerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/PlayerControllerX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/SpawnManagerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 2/Scripts/SpawnManagerX.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DestroyOutOfBoundsZ.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 2/Scripts/SpawnManagerX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 2/Scripts/PlayerControllerX.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lvo8cuVUc1tLlF8r3zUrzqFWE4" />
@@ -71,6 +81,7 @@
       <workItem from="1608509355744" duration="3027000" />
       <workItem from="1608584100246" duration="93000" />
       <workItem from="1608584581131" duration="5231000" />
+      <workItem from="1608631172605" duration="1283000" />
     </task>
     <servers />
   </component>
@@ -89,6 +100,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
