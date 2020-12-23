@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Maxime H\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Maxime H\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Prototype 1.746973237.00" t="ExcludeRecursive" />
-    <e p="D:\_MAXIME\__GITHUB\createWithCodeUnity\Prototype 1" t="IncludeRecursive">
+    <e p="C:\Users\Maxime H\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MaxHel - Personal Project.72093905.00" t="ExcludeRecursive" />
+    <e p="D:\_MAXIME\__GITHUB\createWithCodeUnity\MaxHel - Personal Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Challenge 1" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="FollowPlayerX.cs" t="Include" />
-            <e p="PlayerControllerX.cs" t="Include" />
-            <e p="PropellerSpin.cs" t="Include" />
-          </e>
-        </e>
         <e p="Course Library" t="Include">
           <e p="_Source_Files" t="Include">
             <e p="_LICENSE.txt" t="Include" />
@@ -23,9 +16,9 @@
           <e p="PlayerController.cs" t="Include" />
         </e>
       </e>
+      <e p="MaxHel - Personal Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Prototype 1.sln" t="IncludeFlat" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>

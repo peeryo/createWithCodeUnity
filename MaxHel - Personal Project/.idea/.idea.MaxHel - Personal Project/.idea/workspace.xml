@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d9a832a-b2f1-4f3c-a29f-0f7969d824a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 3/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenge 3/Challenge 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 3/Challenge 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/MoveLeftX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/MoveLeftX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/PlayerControllerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/PlayerControllerX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/RepeatBackgroundX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/RepeatBackgroundX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/SpawnManagerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenge 3/Scripts/SpawnManagerX.cs" afterDir="false" />
+    <list default="true" id="f07f09b2-7de9-4095-8b02-63fb79a48fcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MaxHel - Personal Project/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MaxHel - Personal Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/My Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/My Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype 1/.idea/.idea.Prototype 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype 1/.idea/.idea.Prototype 1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype 1/.idea/.idea.Prototype 1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype 1/.idea/.idea.Prototype 1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype 1/.idea/.idea.Prototype 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype 1/.idea/.idea.Prototype 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype 1/Assets/Plugins/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype 1/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prototype 3/.idea/.idea.Prototype 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype 3/.idea/.idea.Prototype 3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +22,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/RepeatBackground.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoveLeft.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Challenge 3/Scripts/MoveLeftX.cs" />
-      <option value="$PROJECT_DIR$/Assets/Challenge 3/Scripts/SpawnManagerX.cs" />
-      <option value="$PROJECT_DIR$/Assets/Challenge 3/Scripts/RepeatBackgroundX.cs" />
-      <option value="$PROJECT_DIR$/Assets/Challenge 3/Scripts/PlayerControllerX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
     </changedPaths>
   </component>
-  <component name="ProjectId" id="1m1LFrGKHJjlZqdGrdq82o3WxYX" />
+  <component name="ProjectId" id="1m3paU5oMjYbEMRGfo2AyCX5Hae" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -44,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -72,12 +69,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d9a832a-b2f1-4f3c-a29f-0f7969d824a4" name="Default Changelist" comment="" />
-      <created>1608656068063</created>
+      <changelist id="f07f09b2-7de9-4095-8b02-63fb79a48fcd" name="Default Changelist" comment="" />
+      <created>1608732206659</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608656068063</updated>
-      <workItem from="1608656080427" duration="12021000" />
+      <updated>1608732206659</updated>
+      <workItem from="1608732252872" duration="1930000" />
     </task>
     <servers />
   </component>
