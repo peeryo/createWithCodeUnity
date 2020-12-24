@@ -12,7 +12,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="FollowPlayer.cs" t="Include" />
+          <e p="MoveCannon.cs" t="Include" />
+          <e p="MoveTower.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
         </e>
       </e>
