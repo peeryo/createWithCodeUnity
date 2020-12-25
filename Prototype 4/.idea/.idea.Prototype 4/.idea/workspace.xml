@@ -2,14 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e25b049-553f-4afb-85ae-7666d23ebc02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PowerUp.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PowerUp.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Challenge 4.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Challenge 4.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Instructions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Instructions/Challenge 4 - Outcome.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Instructions/Challenge 4 - Outcome.mov.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs/Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs/Powerup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs/Powerup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs/Smoke_Particle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Prefabs/Smoke_Particle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/EnemyX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/EnemyX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/PlayerControllerX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/PlayerControllerX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/RotateCameraX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/RotateCameraX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/SpawnManagerX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/Scripts/SpawnManagerX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/BouncyX.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/BouncyX.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/Grey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/Grey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/PolygonPrototype_Texture_Grid_03_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/PolygonPrototype_Texture_Grid_03_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/PolygonPrototype_Texture_Grid_07_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/PolygonPrototype_Texture_Grid_07_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/PolygonPrototype_Texture_Grid_Glass_01_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/PolygonPrototype_Texture_Grid_Glass_01_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Challenge 4/_Source_Files/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_DirtSplatter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_DirtSplatter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_Explosion_Rubble.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_Explosion_Rubble.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_Explosion_Smoke.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_Explosion_Smoke.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_Fireworks_Yellow_Small.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/FX_Fireworks_Yellow_Small.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files/Materials/SumoBalls_Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files/Materials/SumoBalls_Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files/Textures/SumoBalls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Source_Files/Textures/SumoBalls.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Textures/Ground.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Textures/Ground/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Textures/Ground/Grass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Textures/Ground/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Textures/Ground/Materials/Grass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/Textures/Ground/Materials/Grass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/SM_Item_Ball_Soccer_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Course Library/_Source_Files/FBX/SM_Item_Ball_Soccer_01.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Powerup Indicators/SelectionRing_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Powerup Indicators/SelectionRing_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PowerUp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PowerUp.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +87,12 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/RotateCamera.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 4/Scripts/EnemyX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 4/Scripts/SpawnManagerX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Challenge 4/Scripts/PlayerControllerX.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m41ELMg2ws5agxrc4Bfs0d8q8a" />
@@ -47,6 +110,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -77,7 +141,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608737958243</updated>
       <workItem from="1608737977306" duration="1883000" />
-      <workItem from="1608827813099" duration="6246000" />
+      <workItem from="1608827813099" duration="9476000" />
+      <workItem from="1608900889366" duration="2682000" />
     </task>
     <servers />
   </component>
