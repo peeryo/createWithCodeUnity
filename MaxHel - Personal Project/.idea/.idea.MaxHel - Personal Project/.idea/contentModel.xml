@@ -6,15 +6,14 @@
     <e p="D:\_MAXIME\__GITHUB\createWithCodeUnity\MaxHel - Personal Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Course Library" t="Include">
-          <e p="_Source_Files" t="Include">
-            <e p="_LICENSE.txt" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
+          <e p="DestroyOutOfBounds.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="GarbageCollector.cs" t="Include" />
           <e p="MoveCannon.cs" t="Include" />
           <e p="MoveTower.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="SpawnManager.cs" t="Include" />
         </e>
       </e>
       <e p="MaxHel - Personal Project.sln" t="IncludeFlat" />
