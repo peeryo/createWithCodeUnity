@@ -6,15 +6,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float turnSpeed = 45.0f;
     private float horizontalInput;
     private float forwardInput;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
-    void Update()
+    // FixedUpdate => Before Update: good for physics and movement
+    void FixedUpdate()
     {
         // This is where we get player input
         horizontalInput = Input.GetAxis("Horizontal");
