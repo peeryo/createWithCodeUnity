@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ebbdf7-c58a-449c-a794-9d92cf5f1129" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +38,8 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lNw7yaw4H6FK313rlOACb5KB2z" />
@@ -87,6 +87,7 @@
       <workItem from="1607467762953" duration="460000" />
       <workItem from="1608733786613" duration="350000" />
       <workItem from="1609011246968" duration="934000" />
+      <workItem from="1609063678241" duration="3396000" />
     </task>
     <servers />
   </component>
