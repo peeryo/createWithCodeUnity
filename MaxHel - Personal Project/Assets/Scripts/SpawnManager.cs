@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+/* GameObject spawn supervisor class script
+ * + control how and when waves of enemies are generated
+ */
 public class SpawnManager : MonoBehaviour
 {
     public GameObject powerupPrefab;
@@ -20,7 +21,7 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyCount = FindObjectsOfType<Enemy>().Length;
+        enemyCount = FindObjectsOfType<EnemyController>().Length;
         
         if (enemyCount == 0)
         {

@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 2112630742064518936}
   - component: {fileID: 54554954094301730}
   - component: {fileID: 135115520585563642}
-  - component: {fileID: 114890881652509416}
+  - component: {fileID: 114374621419747654}
+  - component: {fileID: 64055254227160898}
   m_Layer: 0
-  m_Name: Player Projectile
-  m_TagString: PlayerBullet
+  m_Name: Projectile
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,11 +106,11 @@ SphereCollider:
   m_GameObject: {fileID: 2112630742064518938}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5000001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114890881652509416
+--- !u!114 &114374621419747654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,6 +119,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112630742064518938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0f879600f96b043b03f6977fbd92b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 347777dde234f844bbc5891e50d712ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &64055254227160898
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112630742064518938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}

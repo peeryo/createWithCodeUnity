@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Maxime H\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Maxime H\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MaxHel - Personal Project.72093905.00" t="ExcludeRecursive" />
-    <e p="D:\_MAXIME\__GITHUB\createWithCodeUnity\MaxHel - Personal Project" t="IncludeRecursive">
+    <e p="C:\Users\maxim\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\maxim\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MaxHel - Personal Project.-2047464282.00" t="ExcludeRecursive" />
+    <e p="D:\__PROJETS\__GITHUB\createWithCodeUnity\MaxHel - Personal Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Scripts" t="Include">
+        <e p="Archive" t="Include">
           <e p="DestroyOutOfBounds.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="GarbageCollector.cs" t="Include" />
           <e p="MoveCannon.cs" t="Include" />
           <e p="MoveTower.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="EnemyCanon.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
+          <e p="EnemyMovement.cs" t="Include" />
+          <e p="PlayerCannon.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="ProjectileController.cs" t="Include" />
           <e p="SpawnManager.cs" t="Include" />
         </e>
       </e>

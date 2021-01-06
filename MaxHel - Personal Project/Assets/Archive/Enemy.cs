@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private GameObject player;
+    private Transform player;
     private Transform towerTr;
     private Transform cannonTr;
     private float cannonAngle = 0;
@@ -20,14 +20,14 @@ public class Enemy : MonoBehaviour
     {
         towerTr = transform.Find("Tower");
         cannonTr = towerTr.Find("Cannon");
-        player = GameObject.Find("Player");
+        player = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 lookDirection = (player.transform.position - transform.position).normalized;
-        float distance = Vector3.Distance(player.transform.position, transform.position);
+        float distance = Vector3.Distance(player.position, transform.position);
+        Vector3 lookDirection = (player.position - transform.position).normalized;
         Vector3 lookRotation = Quaternion.LookRotation(lookDirection).eulerAngles - transform.rotation.eulerAngles;
 
         if (distance >= 40)
@@ -61,7 +61,6 @@ public class Enemy : MonoBehaviour
 
         cannonAngle = (50.0f / 80.0f) * distance;
         cannonAngle = Mathf.Clamp(cannonAngle, 0, 50);
-        Debug.Log(cannonAngle);
         
         cannonTr.localEulerAngles = new Vector3(-cannonAngle, cannonTr.localEulerAngles.y, cannonTr.localEulerAngles.z);
 
@@ -69,18 +68,11 @@ public class Enemy : MonoBehaviour
         {
             rechargeTimer = Random.Range(1.5f, 4f);
             GameObject projectile = Instantiate(projectilePrefab, cannonTr.transform.position, cannonTr.transform.rotation * projectilePrefab.transform.rotation);
+            projectile.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+            projectile.gameObject.tag = "EnemyBullet";
             projectile.GetComponent<Rigidbody>().AddForce(cannonTr.transform.forward * impulsionForce, ForceMode.Impulse);
         }
 
         rechargeTimer -= Time.deltaTime;
-    }
-    
-    private void OnTriggerEnter(Collider collider)
-    {
-        if (collider.CompareTag("PlayerBullet"))
-        {
-            Destroy(collider.gameObject);
-            Destroy(gameObject);
-        }
     }
 }

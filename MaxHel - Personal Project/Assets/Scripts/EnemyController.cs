@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 
-/* Player parameters supervisor script
- * + control player's conditions of life and death
+/* Enemy parameters supervisor script
+ * + control enemy's gameobjects conditions of life and death
  */
-public class PlayerController : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public int lives;
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -15,5 +15,4 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
 }
