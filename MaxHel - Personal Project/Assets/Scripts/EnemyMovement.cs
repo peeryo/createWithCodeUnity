@@ -21,7 +21,7 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(player.position, transform.position);
+        float distance = Vector3.Distance(player.position, gameObject.transform.position);
         Vector3 lookDirection = (player.position - transform.position).normalized;
         lookRotation = Quaternion.LookRotation(lookDirection).eulerAngles - transform.rotation.eulerAngles;
 
