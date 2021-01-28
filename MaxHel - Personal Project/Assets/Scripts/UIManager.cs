@@ -12,6 +12,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private Camera dummyCamera;
 
     public Events.EventFadeComplete onMainMenuFadeComplete;
+    public bool isOption;
 
     private void Start()
     {
@@ -22,6 +23,12 @@ public class UIManager : Singleton<UIManager>
     private void HandleGameStateChange(GameManager.GameState currentState, GameManager.GameState previousState)
     {
         pauseMenu.gameObject.SetActive(currentState == GameManager.GameState.PAUSED);
+    }
+
+    public void ToggleOption()
+    {
+        optionMenu.gameObject.SetActive(!isOption);
+        isOption = !isOption;
     }
 
     private void HandleMainMenuFadeComplete(bool fadeOut)

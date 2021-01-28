@@ -45,7 +45,7 @@ public class GameManager : Singleton<GameManager>
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !UIManager.Instance.isOption)
         {
             TogglePause();
         }
@@ -162,6 +162,10 @@ public class GameManager : Singleton<GameManager>
         UpdateState(CurrentGameState == GameState.RUNNING ? GameState.PAUSED : GameState.RUNNING);
     }
 
+    public void ToggleOption()
+    {
+        UIManager.Instance.ToggleOption();
+    }
     public void RestartGame()
     {
         UpdateState(GameState.PREGAME);

@@ -2739,6 +2739,7 @@ MonoBehaviour:
   onMainMenuFadeComplete:
     m_PersistentCalls:
       m_Calls: []
+  toggleOption: 0
 --- !u!1 &4790020111931460549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4656,6 +4657,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90b8e78afdc3f06439708f6808c325a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resumeButton: {fileID: 4790020111350809634}
+  optionButton: {fileID: 4790020112190094229}
+  restartButton: {fileID: 4790020111329652292}
+  quitButton: {fileID: 4790020111770057068}
 --- !u!1 &4790020112761693649
 GameObject:
   m_ObjectHideFlags: 0
