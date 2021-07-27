@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 3340120}
   - component: {fileID: 2390656}
   - component: {fileID: 7470611027228714114}
+  - component: {fileID: 114391694475687606}
   m_Layer: 0
   m_Name: Veh_Van_Green_Z
   m_TagString: Untagged
@@ -188,6 +189,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 576da546347c040428bb0204a37e73d3, type: 3}
+--- !u!114 &114391694475687606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5d38694057a50e4ab6b31e9bde47104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carSpeed: 80
 --- !u!1 &152928
 GameObject:
   m_ObjectHideFlags: 0
